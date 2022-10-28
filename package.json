@@ -8,9 +8,29 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "type-check:ts": "tsc --noEmit",
+    "type-check:astro": "astro check",
+    "type-check": "run-p type-check:*",
+    "code-check": "run-p format:check lint type-check"
   },
   "dependencies": {
     "astro": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-astro": "^0.20.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "npm-run-all": "^4.1.5"
   }
 }
