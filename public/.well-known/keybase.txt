@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/ygkn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ygkn.dev
+  * I am ygkn (https://keybase.io/ygkn) on keybase.
+  * I have a public key with fingerprint 94DD 6A9F C793 990B E99F  0599 75D9 DB23 5046 8783
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203587fe9b07e3f25e2d4fb7c73fe5b52961278f675cb9e732d5f1cdc99225e5680a",
+      "fingerprint": "94dd6a9fc793990be99f059975d9db2350468783",
+      "host": "keybase.io",
+      "key_id": "75d9db2350468783",
+      "kid": "01010fe3db67febba1e2475dacd9e2fabdd6f62c1f6fbf58dd9aedc340426b5f3fcb0a",
+      "uid": "0e4ce7fbdc3956a0cd03745de9d6be19",
+      "username": "ygkn"
+    },
+    "service": {
+      "hostname": "ygkn.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1668039247,
+  "expire_in": 157680000,
+  "prev": "8ca071530ba922249bf16d1071c321c2060819208fc9f024d0bbe9206e49d344",
+  "seqno": 61,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNkAnicbVJrTBRXGN2lQBHSVpBsm2hoGRsEITjv2btailiKKEZstQmxFeZxhx1Y
+Ztd9sEu3gAYFwZqCEoOhDaIUSni0qyFYkoILJKRpBcHyQ60QjRKBEgttygYEepfW
+pD8682Nyz5xzvvN93x185SVNqNZx9/7WzPcryrQ/easdGtGUctCNCWapCDO4sXy4
+/oEmCdrs2fmKhBkwnCBxitFzMgQCzkFKJhlISrQscCJHyZARGBKwBMnpZZZjRAFA
+jiIlRiZESQSARGSG1eM8loDJipoLrRarotqRLaAlieWBLHKAAgAXIAAyzgDAMRKQ
+BJJicJrVc3oKCY1mm1+Bwgm8DSYqZoShQ/Z6vP/hv8iNXhlSksCi7ILAE5CkEZsX
+JQBJmRdQfZklRUJmZUFm9JIEeCiJFI3TJCswMiWLwnpuxz92kBYhJwuIARiWx0UJ
+pziakSCQWAESwE+0QavKF0DELsrNV7HiBAwhhYoI/UP1d/Gfv4kSLEQai9VsN4tm
+E0KNdrvFZvCr7EUWP80Jhex/DbIFRZXQ/JCiEFptilnFDARiinbF70iwaMYUQP0l
+YNBlUawwW/EzGA7h6PHXQeUMmF7kcY5gKFzg0W5IGggywUoEwkSKJEQSZ3E9AUhc
+L4toHSQt4QLaDIIhDSSKpjF/S8dVM2ZgCZSTz0WeNiVX5e0OK8SK+70fB2q0oZrg
+oAD/xdKEbtj44roFURs1176565n+dM/TbbCUHT+5E0s7f7TvTGeSMN/73sPWfbv+
+GJ9cG9K11736RgesMoWPJu1trw4ZqG3IP7d96qa78c6ByInrC6tixRj/9uhSBzZ/
+j0/2XZOWosFto/rEc6umGV9Krdyfeiqgp+5Kc+udoh+Th0ICH5za7wzfvexdmfmk
+0bOhxafLKdwe0zS9uWRet7g65GyozkppGW417cWn68vH10bnJ6iZwOIwV2fkcVFz
+Nb3+MZE1WbK7Sq2eOpRzos2lGG+U7Yye7Q1YMae/88OWgdiwcsdsRO+xKs+2oPNP
+hoa/OrnAg46vb09eLrV1fzTWqJ3+K8xp/K3rW6L2g6d5dXUPrxz7XZ7NqNz081QE
+EffZu3sMb62x3eWhrhrXwtLVXzNebvrSF1/d1/iFr1MhdhBl90KerXFd3WTyif6R
+Q5Fz313qORK0K6YgtXQ+oXbZSx/2gPZz8dFnE/qbXm/O4R8pi9/vS088uuqKKq8Y
+OetYSXWnRBdENFyO2xqbqe2Cw1uSdMvpGaIo9OW5ibQ0XdznmXmHMwaSLj5rq7Tk
+pAY9vx6VF3zwsepqCn/u0epeS245nRJn3DEweulD0y83MxrfbOu74J1Zuq9WnX5w
+xpgW7Cbjazb7LnijCevIrZjBsYtjJH/AOZgVO1FZcsQSErXoU29sqm94NDcXku/8
+s+dv2JzCVg==
+=y1Z8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ygkn
+
+==================================================================
