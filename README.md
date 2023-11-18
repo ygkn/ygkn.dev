@@ -22,6 +22,6 @@ npm i
 
 See `scripts` section of [package.json](./package.json)
 
-- `npm run dev` - runs in developing mode
-- `npm run build` - exports HTML files and others in `./dist`
-- `yarn run code-check` - checks fromat, lint, types
+- `pnpm run dev` - runs in developing mode
+- `pnpm run build` - exports HTML files and others in `./dist`
+- `pnpm run code-check` - checks fromat, lint, types

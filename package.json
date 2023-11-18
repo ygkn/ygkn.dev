@@ -1,38 +1,48 @@
 {
   "name": "ygkn.dev",
-  "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "format": "prettier --write src",
-    "format:check": "prettier --check src",
-    "lint": "eslint src",
-    "lint:fix": "eslint --fix src",
-    "type-check:ts": "tsc --noEmit",
-    "type-check:astro": "astro check",
-    "type-check": "run-p type-check:*",
-    "code-check": "run-p format:check lint type-check"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "npm-run-all -p lint:*",
+    "fix": "npm-run-all fix:*",
+    "lint:eslint": "next lint",
+    "fix:eslint": "next lint --fix",
+    "lint:prettier": "prettier --check .",
+    "fix:prettier": "prettier --write --cache .",
+    "lint:ts": "tsc --noEmit"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^2.1.2",
-    "astro": "^1.6.8",
-    "tailwindcss": "^3.2.4"
+    "class-variance-authority": "0.7.0",
+    "date-fns": "2.30.0",
+    "next": "14.0.2",
+    "next-query-utils": "1.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.9",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
-    "eslint": "^8.27.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^3.5.2",
-    "eslint-plugin-astro": "^0.21.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "npm-run-all": "^4.1.5"
+    "@tsconfig/next": "2.0.1",
+    "@tsconfig/strictest": "2.0.2",
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
+    "eslint": "8.53.0",
+    "eslint-config-next": "14.0.2",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-import-access": "2.1.2",
+    "eslint-plugin-sort-destructure-keys": "1.5.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "3.1.0",
+    "typescript": "5.2.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "tsconfig-paths": "^4.0.0"
+    }
   }
 }
